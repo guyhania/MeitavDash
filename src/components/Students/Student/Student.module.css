@@ -1,0 +1,30 @@
+.Student{
+    width: 150px;
+    height: 150px;
+    margin: 16px auto;
+    margin-right: 1%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: left;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.Student:hover{
+    background-color: rgb(241, 241, 241);
+
+}
+
+@media(max-width: 426px){
+    .Student{
+        width: 200px;
+        height: 150px;
+    }
+}
+@media(min-width: 500px){
+    .Student{
+        width: 200px;
+        height: 150px;
+    }
+}

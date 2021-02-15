@@ -1,0 +1,102 @@
+.Main {
+    box-sizing: border-box;    
+    margin: auto;
+    margin-bottom: 5%;
+    width: 450px;
+    height: 100%;    
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.733);
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+}
+
+.InputsContainer{
+    display: flex;
+}
+
+.InputSubContainer{
+    display: flex;
+    padding: 3%;
+    flex-direction: column;
+    /* border: 1px solid rgb(207, 29, 29);  */
+
+
+}
+.Label{
+    font-family: "Source Sans Pro", sans-serif;    
+    margin-bottom: 1vh;
+}
+
+.Title{
+    font-family: 'Harman Retro';
+    font-size: 31px;
+    line-height: 41px;
+    color: #5D6063;
+    font-weight: 700;
+}
+
+.Input{
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced6e0;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    padding: 2%;
+    background: none;
+    color: #1a3b5d;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 5%; 
+    /* border: 1px solid rgb(207, 29, 29);  */
+    text-align: center;     
+}
+
+.Button{
+    width: 40%;
+    background-color: #2364d2;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Source Sans Pro",sans-serif;
+    box-shadow: 3px 10px 20px 0px rgb(35 100 210 / 30%);
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 1%;
+
+    cursor: pointer;
+}
+
+@media (max-width:426px){
+    .Main{
+        width: 90%;
+        height: 100%; 
+    }    
+    .Input{
+        width: 80%;
+        font-size: 15px
+    }
+    .Button{
+        width: 40%;
+        height: 10%;
+        font-size: 20px;
+    }    
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Main{
+        width: 550px;
+        height: 600px; 
+    }    
+    .Input{
+        width: 60%;
+    }
+    .Button{
+        width: 40%;
+        /* height: 10%; */
+        font-size: 20px;
+        margin-top: -8%;
+
+    }  
+}

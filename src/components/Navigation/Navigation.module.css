@@ -1,0 +1,25 @@
+.MenuContainer{    
+    padding: 20px 0;
+    display: flex;
+    background-color: #ccd6e2;
+    margin-bottom: 2%;
+}
+
+.Menu{
+    /* border: 1px solid #fff;   */
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.Link a{
+    text-decoration: none;
+    color:rgb(13, 13, 34);
+}
+
+.Link a:hover,
+.Link a:active,
+.Link a.active {
+    color: #fdfdfd;
+    background-color: rgb(213, 214, 214);
+}

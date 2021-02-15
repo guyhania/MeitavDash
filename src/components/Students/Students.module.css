@@ -1,0 +1,62 @@
+.Container{
+    margin:auto;
+    margin-bottom: 5%;
+    width: 950px; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.733);
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 10px;
+    
+    
+    /* border: 1px solid rgb(207, 29, 29);   */
+}
+
+
+.Title{
+    font-family: 'Harman Retro';
+    font-size: 31px;
+    line-height: 41px;
+    color: #5D6063;
+    font-weight: 700;
+}
+
+.StudentsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Students{
+    margin: auto; 
+    width: 900px; 
+    height: 100%;  
+    /* border: 1px solid rgb(207, 29, 29);   */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+@media (max-width:426px){
+    .Container{
+        width:90%;
+    }       
+    .Students{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;        
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Container{
+        width: 950px;
+    }
+}
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Container{
+        width: 900px;
+    }
+}
