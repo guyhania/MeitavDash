@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Students.module.css';
 import Student from './Student/Student';
-import { NavLink } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import { connect } from 'react-redux';
 import * as actionTypes from '../../store/actions';
@@ -30,13 +29,10 @@ class Students extends Component {
                         </div>
                     </div>
                 </div>
-
             </>
+        )}}
 
-        )
-    }
-}
-const mapStateToProps = state => {
+        const mapStateToProps = state => {
     return {
         sts: state.students
     };

@@ -17,10 +17,8 @@
     display: flex;
     padding: 3%;
     flex-direction: column;
-    /* border: 1px solid rgb(207, 29, 29);  */
-
-
 }
+
 .Label{
     font-family: "Source Sans Pro", sans-serif;    
     margin-bottom: 1vh;
@@ -47,7 +45,6 @@
     color: #1a3b5d;
     font-family: "Source Sans Pro", sans-serif;
     margin-bottom: 5%; 
-    /* border: 1px solid rgb(207, 29, 29);  */
     text-align: center;     
 }
 
@@ -94,7 +91,6 @@
     }
     .Button{
         width: 40%;
-        /* height: 10%; */
         font-size: 20px;
         margin-top: -8%;
 

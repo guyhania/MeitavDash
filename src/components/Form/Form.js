@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Form.module.css';
-import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actionTypes from '../../store/actions';
 import Navigation from '../Navigation/Navigation';
