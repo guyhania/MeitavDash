@@ -133,7 +133,6 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         onAddedStudent: (newStudent) => dispatch({ type: actionTypes.ADD_STUDENT, newStudent })
-        // onRemovedStudent: (id) => dispatch({type: actionTypes.REMOVE_PERSON, personId: id})
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Form);
